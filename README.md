@@ -12,4 +12,6 @@ This repository consists of Python tutorial using Juypter Notebook
 * identity operators
 * membership operators
 
-3. Python Conditionals and Loops
+3. Conditionals : if-else, elif, match case, ternary operators
+
+4. Loops : for and while loops, pattern printing
