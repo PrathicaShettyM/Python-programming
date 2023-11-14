@@ -58,7 +58,58 @@ newList.insert(2,60)
 print("Insert List: ",end="")
 print(newList)
 
-# extend
+# extend : append another list to the cureent list or append another datatype to the current list
+# concat list using extend()
+li = [100,200,300]
+newList.extend(li)
+print("Extend List: ",end="")
+print(newList)
+
+#Remove elements from the list
+# 1.remove(element) : the mentioned element 
+# 2.pop() or pop(index): removes last element or the element of the given index
+
+li2 = [100, 200, 300, 400, 500, 600, 700]
+li2.remove(200)
+print(li2)
+
+li2.pop()
+print(li2)
+
+li2.pop(0)
+print(li2)
+
+# change items in a list
+# 1. at an index     list[2] = 4
+# 2.in a range
+# variations of range in list
+li2[0:3] = ["apple", "kiwi", "papaya"]
+print(li2)
+#['apple', 'kiwi', 'papaya', 600]
+
+li2[1:3] = ["apple"]
+print(li2)
+# ['apple', 'apple', 600]
+
+li2[1:3] = "blackberry"
+print(li2)
+# ['apple', 'b', 'l', 'a', 'c', 'k', 'b', 'e', 'r', 'r', 'y']
+
+# sorting lists
+li3 = [10,-90,20,70,-111]
+veggies = ["carrot","beans","tomato","potato"]
+
+# ascending
+li3.sort()
+print(li3)
+
+# for descending
+veggies.sort(reverse=True)
+print(veggies)
+
+rev = [10, 30, 50, 70, 99]
+rev.reverse()
+print(rev)
 
 
 
