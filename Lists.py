@@ -111,6 +111,8 @@ rev = [10, 30, 50, 70, 99]
 rev.reverse()
 print(rev)
 
+# LIST COMPREHENSION : used to make a new list from the existing list
+
 
 
 
