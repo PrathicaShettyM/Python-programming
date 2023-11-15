@@ -112,9 +112,55 @@ rev.reverse()
 print(rev)
 
 # LIST COMPREHENSION : used to make a new list from the existing list
+# list = [40,20,10,30]
+# for i in list:
+#   if i>25:
+#       newlist.append()
+# to do the above code in a simple manner we use list comprehension
+# list = [40,20,10,30]
+# newlist = [i "for i in list" `if i>25`]
 
+batsmen = ["virat","rohit","root","smith"]
+fabCricket = [batsmen for batsmen in batsmen if "i" in batsmen]
+print(fabCricket)
 
+# COPY A LIST
+new_batsmen = batsmen.copy()
+print(new_batsmen)
 
+new_batsmen = batsmen + new_batsmen
+print(new_batsmen)
+
+# nested list
+list = [10,20,[30,40],50]
+print(list[2])
+print(list[2][0])
+
+list.insert(3, ["apple","mango"])
+print(list)
+
+# swap 2 elements in a list
+n = int(input("Enter the size of the list: "))
+
+list = []
+
+print("Enter the elements of the list: ")
+for _ in range(n):
+    num = int(input())
+    list.append(num)
+    
+print("list before swap: ",end="")
+print(list)
+
+idx1 = int(input("Enter index 1: "))
+idx2 = int(input("Enter index 2: "))
+
+temp = list[idx1]
+list[idx1] = list[idx2]
+list[idx2] = temp
+
+print("list after swap: ",end="")
+print(list)
 
 
 
