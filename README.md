@@ -2,9 +2,9 @@
 
 This repository consists of Python tutorial using Juypter Notebook
 
-1. Python Basics - input, output, varaibles
+1. Python Basics : input, output, varaibles
 
-2. Python operators
+2. Python operators :
 * arithmetic operators
 * assignment operators
 * logical operators
@@ -15,3 +15,7 @@ This repository consists of Python tutorial using Juypter Notebook
 3. Conditionals : if-else, elif, match case, ternary operators
 
 4. Loops : for and while loops, pattern printing
+5. Collections :
+   i. Lists
+   ii. Tuples
+   
