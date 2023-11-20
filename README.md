@@ -18,4 +18,5 @@ This repository consists of Python tutorial using Juypter Notebook
 5. Collections :
    i. Lists
    ii. Tuples
+6. OOPs
    
