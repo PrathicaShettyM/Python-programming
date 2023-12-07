@@ -58,5 +58,22 @@ print(itm1)
 print(itm3)
 print(itm2)
 
+# Reverse a tuple
+#  reversed() : to iterate through a sequence in a reversed order
+
+# method 1 : direct 
+tpl2 = (1,2,3,4,5,6)
+for i in reversed(tpl2):
+    print(i, end=" ")
+    
+# method 2 : algo
+# algo : tuples are immutable, so first store them in a list and then type cast it into a tuple
+listRev = []
+for i in tpl2:
+    listRev.append(i)  # appending list items in a list
+
+outputTpl = tuple(listRev) #typecaste a list into a tuple
+print("\n", outputTpl)
+
 
 
