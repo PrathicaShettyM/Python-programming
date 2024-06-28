@@ -5,7 +5,7 @@ if n >= 0:
 else:
     print("The no. is negative")
     
-take input and tell odd or even
+# take input and tell odd or even
 n = int(input("Enter a no. : "))
 if n % 2 == 0:
     print("The no. is Even")
@@ -65,8 +65,7 @@ else:
 
 
 # MATCH CASE(similar to switch case in cpp and java)
-
-calculator using match case
+# calculator using match case
 num1 = int(input("Enter 1st number :"))
 num2 = int(input("Enter 2nd number :"))
 
