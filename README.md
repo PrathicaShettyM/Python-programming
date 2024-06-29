@@ -15,9 +15,18 @@ This repository consists of Python tutorial using Juypter Notebook
 3. Conditionals(refer `pythonBasics.ipynb`) : if-else, elif, match case, ternary operators
 
 4. Loops : for and while loops, pattern printing
+
 5. Collections :
-   i. Lists
-   ii. Tuples
+   i.   Lists
+   ii.  Tuples
    iii. Sets
-6. OOPs
+   iv.  Dictionary
+
+6. Functions
+
+7. Recursion
+
+8. Strings
+
+9. OOPs
    

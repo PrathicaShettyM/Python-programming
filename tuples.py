@@ -75,5 +75,7 @@ for i in tpl2:
 outputTpl = tuple(listRev) #typecaste a list into a tuple
 print("\n", outputTpl)
 
-
+# question
+print((1,2) + (3,4))
+# this is concatinate not add them
 
