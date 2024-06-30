@@ -1,6 +1,6 @@
-# Python-deep-dive
+# Python-Programming
 
-This repository consists of Python tutorial using Juypter Notebook
+This repository consists of Python tutorial using Juypter Notebook and VS Code
 
 1. Python Basics(refer `pythonBasics.ipynb`) : input, output, variables
 
